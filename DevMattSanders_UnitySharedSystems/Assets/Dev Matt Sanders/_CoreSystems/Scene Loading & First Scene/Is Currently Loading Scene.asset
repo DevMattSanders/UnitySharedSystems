@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275f817b7f7b1dc44b70cd4e1cdfebe6, type: 3}
+  m_Name: Is Currently Loading Scene
+  m_EditorClassIdentifier: 
+  enabled: 1
+  allowSaveAndLoad: 1
+  internalId: f4b5097c-673f-4b98-87c7-ebc464548994
+  startingValue: 0

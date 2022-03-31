@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6212a2e0c61174288457ea1eb96737, type: 3}
+  m_Name: Scene Load Manager
+  m_EditorClassIdentifier: 
+  enabled: 1
+  isCurrentlyLoadingScene: {fileID: 11400000, guid: 788436df0f8874c4baf34933bb1c7af5,
+    type: 2}
+  percentAmount: {fileID: 11400000, guid: 79ce03963de513a4090aa8050c765510, type: 2}
+  showLoadingScreen: {fileID: 11400000, guid: 62e946049d05c99469630797710b35a2, type: 2}
+  currentScene: 
+  sceneToLoadNext: Dragon Garden
+  endOfLoadingScreenDelay: 0
+  currentOpenScenes: []
+  loadingScene:
+    scene: {fileID: 102900000, guid: 1249e0f720e68574995ec18f8e025420, type: 3}
+    SceneName: Scene_LoadingScene
+  addressableSceneOpen: 0
