@@ -1,0 +1,29 @@
+{
+  "name": "com.devmattsanders.sharedsystems",
+  "displayName": "DMS Shared Systems",
+  "version": "0.0.1",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMattSanders/UnitySharedSystems.git"
+  },
+  "unity": "2018.3",
+  "description": "Shared systems to be used to kickstart a project",
+  "keywords": [
+    "scriptable objects",
+    "unity"
+  ],
+  "category": "Unity",
+  "scripts": {
+  },
+  "files": [    
+    "/README.md",
+    "/README.md.meta",
+    "/package.json",
+    "/package.json.meta"
+  ],
+  "devDependencies": {
+  }
+}
