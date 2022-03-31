@@ -1,8 +1,9 @@
 using System.Linq;
+using DevMattSanders._CoreSystems;
 using UnityEditor;
 using UnityEngine;
 
-namespace DevMattSanders._CoreSystems.Editor
+namespace Dev_Matt_Sanders._CoreSystems
 {
     [InitializeOnLoad]
     public class HierarchyHighlightManager
@@ -102,7 +103,6 @@ namespace DevMattSanders._CoreSystems.Editor
                         //If the background has transparency, draw a solid color first
                         if (label.Background_Color.a < 1f || objectIsSelected)
                         {
-                            //ToDo: Pull background color from GUI.skin Style
                             EditorGUI.DrawRect(backgroundOffset, HierarchyHighlighter.DEFAULT_BACKGROUND_COLOR);
                         }
 
