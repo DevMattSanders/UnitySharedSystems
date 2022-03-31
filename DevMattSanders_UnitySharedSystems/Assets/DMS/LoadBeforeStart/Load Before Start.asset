@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575dd140b7e61c84dbeab14940318243, type: 3}
+  m_Name: Load Before Start
+  m_EditorClassIdentifier: 
+  gameObjectsToCreateAtStart:
+  - {fileID: 490527124477781044, guid: 4f9cd03e7231fa54a8368a5beee10df2, type: 3}
+  - {fileID: 4539936262782298357, guid: d434ad181696c624cb1f5d303ef626cf, type: 3}
+  - {fileID: 7023824712013670813, guid: f776b84a63ecf3444bf12a5a931a5192, type: 3}
